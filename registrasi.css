@@ -43,10 +43,14 @@ h2 {
 /*input[type=submit]:hover {
   background-color: #45a049;
 }*/
+
 .col-md-6{
   width: 50%;
   margin: auto;
-
+}
+.col-md-4{
+  width: 33%;
+  margin: auto;
 }
 .bg-center{
   margin: auto;
