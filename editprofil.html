@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylecss_regprofile.css">
+    <title>Edit Profil Ringgo Cafe</title>
+</head>
+<body>
+    <div id="card_editprofil">
+        <div id="card-content">
+            <div id="card-title">
+              <h2>Edit Profile</h2>
+              Selamat datang di halaman edit profile <rc>Ringgo Cafe</rc>. anda bisa mengganti data diri dan foto anda<br>
+            </div>
+
+            <form class="form">
+                <label>Nama Depan : </label>
+                <input type="text" id="firstname">
+                <label>Nama Belakang : </label>
+                <input type="text"  id="lastname">
+                <label>Alamat Email : </label>
+                <input type="text"  id="email">
+                <label>Nomer HP : </label>
+                <input type="number"  id="phone">
+                <label>Nama Jalan : </label>
+                <select name="Nama Jalan : ">
+                    <option value="jawa">Jalan Jawa</option>
+                    <option value="kalimantan">Jalan kalimantan</option>
+                    <option value="sumatara">Jalan Sumatra</option>
+                    <option value="mastrip">Jalan Mastrip</option>
+                    <option value="other">Lainnya...</option>
+                </select>
+                <label>Alamat Lengkap: </label>
+                <textarea> Alamat lengkap...</textarea>
+                <label>Ganti Foto : </label>
+                <input type="file">
+
+                <a href="editprofil.html"><button id="regbtn"> SIMPAN PERUBAHAN </button></a>
+                <input id="clearbtn" type="button" name="clear" value="CLEAR FORM">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
