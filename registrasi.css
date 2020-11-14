@@ -1,3 +1,9 @@
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
 *{
   box-sizing: border-box;
 }
@@ -37,9 +43,14 @@ input[type=submit]:hover {
   text-align: center;
 }
 .container {
+  margin-top: 50px;
+  background: #d7984b;
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  /*height: 500px;*/
+  margin: 6rem auto 8.1rem auto;
   border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+  padding: 20px 20px 20px 20px;
 }
 .input-location{
   height: 125px;
