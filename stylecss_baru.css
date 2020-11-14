@@ -55,6 +55,16 @@ input[type=text] {
     border-spacing: 10px;
     padding-right: 7.5%;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.displayPesanan{
+    height: 25px;
+    width: 7.5%;
+    text-align: center;
+}
 .sepertiga{
     width: 27% ;
     display: table-cell;
