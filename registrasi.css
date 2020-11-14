@@ -19,23 +19,33 @@ label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
+.btn{
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   float: right;
 }
-
-input[type=submit]:hover {
-  background-color: #45a049;
+.batal-btn{
+  background-color: #ffffff;
+  color: #632923;
+  border: 2px solid #632923;
 }
+.simpan-btn{
+  background-color: #632923;
+  color: white;
+}
+h2 {
+  /*size: 20px;*/
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+/*input[type=submit]:hover {
+  background-color: #45a049;
+}*/
 .col-md-6{
   width: 50%;
-    margin: auto;
+  margin: auto;
 
 }
 .bg-center{
@@ -48,7 +58,7 @@ input[type=submit]:hover {
   border-radius: 8px;
   box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
   /*height: 500px;*/
-  margin: 6rem auto 8.1rem auto;
+  margin: 0 auto 8.1rem auto;
   border-radius: 5px;
   padding: 20px 20px 20px 20px;
 }
