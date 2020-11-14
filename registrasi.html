@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type="text/javascript" src="registrasi.js"></script>
+  <link rel="stylesheet" href="registrasi.css">
+</head>
+<body class="bg-center">
+  <h2>Registrasi Akun</h2>
+  <div class="container col-md-6">
+   <form action="">
+    <div class="input-group">
+      <div class="display-label">
+        <label>Nama</label>
+      </div>
+      <div class="display-input">
+        <input type="text" placeholder="Nama" id="nama">
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="display-label">
+        <label>Tanggal Lahir</label>
+      </div>
+      <div class="display-input">
+        <input type="date" id="date">
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="display-label">
+        <label>Email</label>
+      </div>
+      <div class="display-input">
+        <input type="text" placeholder="Email" id="email">
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="display-label">
+        <label for="fname">Password</label>
+      </div>
+      <div class="display-input">
+        <input type="password" placeholder="Password" id="password">
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="display-label">
+        <label>No. HP</label>
+      </div>
+      <div class="display-input">
+        <input type="number" placeholder="No. Handphone" id="nohp">
+      </div>
+    </div>
+    <div class="input-group">
+      <div class="display-label">
+        <label>Lokasi Anda</label>
+      </div>
+      <div class="display-input">
+        <textarea placeholder="Masukkan lokasi anda " id="lokasi" class="input-location"></textarea>
+      </div>
+    </div>
+    <br>
+    <div class="display-flexible">
+      <input type="submit" value="Batal">
+      <div class="space-right"></div>
+      <input onclick="addData();" type="button" value="Simpan">
+    </div>
+   </form>
+  </div>
+    <!-- <center>
+      <table id="tbl" border="1">
+      <thead>
+        <th>Nama</th>
+        <th>Tgl Lahir</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>No. Hp</th>
+        <th>Lokasi</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    </center> -->
+</body>
+</html>
