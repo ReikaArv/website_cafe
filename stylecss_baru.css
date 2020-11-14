@@ -29,8 +29,23 @@ input[type=text] {
   border-radius: 4px;
   cursor: pointer;
 }
+
+#minbtn {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+}
+
+#plusbtn {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 .section-two{
-    /*margin: auto;*/
     width: 87.5%;
     display: inline;
     position: relative;
@@ -38,9 +53,6 @@ input[type=text] {
     display: table;
     table-layout: fixed; 
     border-spacing: 10px;
-    /*grid-template-columns: auto auto auto;*/
-    /*grid-gap: 10px;*/
-    /*display: grid;*/
     padding-right: 7.5%;
 }
 .sepertiga{
@@ -75,6 +87,7 @@ input[type=text] {
     padding-top: 15px;
     padding-right: 20px;
     text-align: justify;
+    margin-left: 40px;
 }
 .btn-auth{
     background-color: #4CAF50;
@@ -123,7 +136,7 @@ li a{
 #hdr { 
     font-size: large; 
     font-weight: bold;
-    /*display: inline;*/
+    display: inline;
 }
 #totalpsn {
     margin-top: 0;
@@ -270,13 +283,9 @@ p {
     background: green;
 }
 
-#editpicbtn {
-    margin-left: 34px;
-    margin-top: 20px;
-}
-
 .profildata {
     margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #profileditbtn {
@@ -306,12 +315,14 @@ p {
 }
 
 .buybtn {
+    margin-left: 30px;
     text-decoration: none;
-	background-color: #eeeeee;
-	color: black;
+	background-color: green;
+	color: white;
 	padding: 2px 6px 2px 6px;
 	border: 1px solid #c2c2c2;
     border-radius:2px;
-    height: 100px;
+    height: 40px;
     width: 200px;
+    cursor: pointer;
 }
