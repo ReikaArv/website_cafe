@@ -64,7 +64,7 @@ input[type=text] {
 .seperdua {
     width: 100%;
     display: table-cell;
-    text-align: left;
+    text-align: center;
 }
 
 .payment {
@@ -88,6 +88,7 @@ input[type=text] {
     padding-right: 20px;
     text-align: justify;
     margin-left: 40px;
+    color: white;
 }
 .btn-auth{
     background-color: #4CAF50;

@@ -1,0 +1,36 @@
+.content{
+	padding-left: 5%; 
+	padding-right: 2%; 
+}
+.row{
+	display: table-cell;
+	display: inline;
+    position: relative;
+    display: table;
+    table-layout: fixed; 
+    float: left;
+}
+.row-2{
+	width: 20%;
+
+}
+.row-8{
+	width: 50%;
+}
+.list-bantuan{
+	color: #9c572e;
+	background-color: #ffffff;
+	padding : 20px 15px 20px 15px;
+	cursor: pointer;
+	border-bottom: 1px solid #9c572e;
+}
+.box-bantuan{
+	color: #9c572e;
+	width: 100%;
+	background-color: #ffffff;
+	padding : 5px 15px 20px 25px;
+	margin: 0; 
+}
+.bantuan{
+	display: none;
+}
