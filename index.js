@@ -17,3 +17,22 @@ $(document).ready(function(){
 		$(".displayPesanan").val(fixAngka);
 	})
 })
+
+$(document).ready(function(){
+	$("#orderminbtn").on('click', function(){
+		var angka = $(".jumorder").val();
+		if(angka == -1){
+			alert('Tidak boleh kurang dari 0');
+		}else{
+			var fixAngka = angka-1;
+			$(".jumorder").val(fixAngka);
+
+		}
+	})
+	$("#orderplusbtn").on('click', function(){
+		var angka = $(".jumorder").val();
+		var n = parseInt(angka);
+		var fixAngka = n+1;
+		$(".jumorder").val(fixAngka);
+	})
+})
