@@ -6,7 +6,7 @@
     <title>Pembayaran</title>
     <link rel="stylesheet" type="text/css" href="stylecss_baru.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="index.js"></script>
+    <script src="pembelian.js"></script>
 </head>
 <body>
     <div class="header">
@@ -79,9 +79,9 @@
          <div class="payment"> 
                 <p>METODE PEMBAYARAN</p>
                 <div class="paymentmeth">
-                    <button id="paybtn"><img src="dana.png"></button> <br>
-                    <button id="paybtn"><img src="ovo.png"></button> <br>
-                    <button id="paybtn"><img src="gopay.png"></button> <br>
+                    <button id="paybtn" onclick="qrCode()"><img src="dana.png"></button> <br>
+                    <button id="paybtn" onclick="qrCode()"><img src="ovo.png"></button> <br>
+                    <button id="paybtn" onclick="qrCode()"><img src="gopay.png"></button> <br>
                     <button id="paybtn">Tunai</button> <br>
                     (Hanya tersedia untuk Dine-in)
 
