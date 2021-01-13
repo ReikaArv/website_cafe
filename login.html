@@ -3,6 +3,7 @@
 <head>
   <script type="text/javascript" src="registrasi.js"></script>
   <link rel="stylesheet" href="registrasi.css">
+  <script src="login.js"></script>
 </head>
 <body class="bg-center"  style="position: relative;top: 100px;">
   <h2 style="">Login Akun</h2>
@@ -25,11 +26,15 @@
         <input type="password" id="password" placeholder="Masukkan Password">
       </div>
     </div>
+    <div>
+      <p onclick="resetPassPopUp()" style="cursor: pointer; color: black; font-weight: bold;">Reset Password</p>
+    </div>
     <br>
     <div class="display-flexible">
-      <input type="submit" value="Batal" class="btn batal-btn">
+      <<input type="submit" value="Batal" class="btn batal-btn" >
       <div class="space-right"></div>
-      <input type="button" value="Masuk" class="btn simpan-btn">
+      <!-- <input type="button" value="Masuk" class="btn simpan-btn"> -->
+      <button onclick="window.location.href='index.html'" class="btn simpan-btn"> Masuk </button>
     </div>
    </form>
   </div>
